@@ -22,8 +22,12 @@ body {
     padding: 15px;
     border-radius: 20px;
     border: 1px solid black;
-    font-weight: bolder;
+    font-weight: bold;
     width: 150px;
+    background-color: rgb(247, 255, 141);
+}
+
+.btn button:hover {
     background-color: rgb(255, 255, 165);
 }
 
@@ -46,24 +50,23 @@ body {
     align-items: center;
     gap: 10px;
     border-radius: 10px;
-    border: 1px solid;
-    margin-top: 20px;
+    border: 0px solid;
+    margin-top: 50px;
     padding: 20px;
     font-weight: bold;
     width: 500px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    background-color: rgb(240, 229, 132);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    background-color: rgb(253, 237, 88);
 }
 
 
 #title, #author, #pages {
-    background-color: rgb(247, 235, 184);
+    background-color: rgb(255, 241, 115);
  padding: 10px;
  height: 30px;
  border: 1px solid;
  border-radius: 10px;
  margin-top: -5px;
-     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 
@@ -85,11 +88,11 @@ label {
     border-radius: 10px;
     border: 1px solid;
         box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        background-color: rgb(240, 229, 132);
+        background-color: rgb(255, 241, 115);
 }
 
 #press:hover {
-    background-color: rgb(255, 249, 249);
+    background-color: rgb(250, 239, 139);
 }
 
 
@@ -107,10 +110,10 @@ label {
     border-radius: 12px;
     padding: 20px;
     margin: 10px 0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
     border: 0px solid black;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    background-color: rgb(247, 231, 90);
+    background-color: rgb(255, 239, 96);
 }
