@@ -41,7 +41,6 @@ function addBookToLibrary() {
 
   render();
 }
-
 const newStartButton = document.querySelector("#btns");
 
 newStartButton.addEventListener("click", function () {
